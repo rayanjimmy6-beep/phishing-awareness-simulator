@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Awareness Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Phishing Awareness Simulator</h1>
+
+    <div class="email">
+        <h3>Email Sample</h3>
+        <p><b>From:</b> support@paypa1.com</p>
+        <p><b>Subject:</b> Urgent! Verify Your Account</p>
+        <p>Your account will be suspended. Click the link below immediately.</p>
+    </div>
+
+    <h3>What looks suspicious?</h3>
+
+    <input type="checkbox" id="c1"> Fake sender address<br>
+    <input type="checkbox" id="c2"> Urgent language<br>
+    <input type="checkbox" id="c3"> Suspicious request<br><br>
+
+    <button onclick="checkAnswer()">Submit</button>
+
+    <h2 id="result"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
